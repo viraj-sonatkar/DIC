@@ -1,0 +1,20 @@
+.myfoot {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #214B8C;
+    text-align: center;
+    border-radius: 5px;
+}
+.myfoot a {
+    float: right;
+    display: block;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+.myfoot a:hover {
+    background-color: navy;
+    /* text-shadow: 3px 2px #214B8C; */
+}
