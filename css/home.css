@@ -1,0 +1,16 @@
+.column {
+    background-color: linen;
+    margin: 1px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.design {
+    background-color: linen;
+    margin: 1px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 70px;
+}

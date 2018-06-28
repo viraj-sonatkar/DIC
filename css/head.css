@@ -1,0 +1,14 @@
+.header {
+    background-color: #214B8C;
+    border-radius: 5px;
+    height: 100px;
+    margin: 1px;
+    padding: 20px;
+    text-align: center;
+}
+.logo {
+    align-self: center;
+    background-color: #214B8C;
+    height: inherit;
+    width: inherit;
+}
