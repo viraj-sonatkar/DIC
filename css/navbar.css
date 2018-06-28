@@ -1,4 +1,5 @@
 .mytopnav {
+    z-index: 1;
     top: 1px;
     list-style-type: none;
     margin: 1px;
@@ -11,6 +12,8 @@
     border-radius: 5px;
 }
 .mytopnav a {
+    z-index: 1;
+    font-family: "Times New Roman", Times, serif;
     float: left;
     display: block;
     color: white;
@@ -21,6 +24,7 @@
     text-decoration: none;
 }
 .mytopnav a:hover {
+    z-index: 1;
     background-color: navy;
     padding: 15px 60px;
     /* text-shadow: 3px 2px #214B8C; */

@@ -1,4 +1,6 @@
 .mycolumn {
+    /* font-family: "Georgia", Georgia, serif; */
+    font-family: serif;
     background-color: white;
     font-size: 30px;
     padding: 20px;
@@ -7,6 +9,7 @@
 }
 
 .mycontent {
+    /* font-family: "Georgia", Georgia, serif; */
     background-color: white;
     padding: 2px;
     padding-left: 20px;
