@@ -1,16 +1,16 @@
-.column {
-    background-color: linen;
-    margin: 1px;
-    padding: 10px;
+.mycolumn {
+    background-color: white;
+    font-size: 30px;
+    padding: 20px;
     border-radius: 5px;
     text-align: left;
 }
 
-.design {
-    background-color: linen;
-    margin: 1px;
-    padding: 10px;
+.mycontent {
+    background-color: white;
+    padding: 2px;
+    padding-left: 20px;
+    font-size: 20px;
     border-radius: 5px;
-    text-align: center;
-    font-size: 70px;
+    text-align: left;
 }

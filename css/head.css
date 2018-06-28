@@ -1,12 +1,11 @@
-.header {
+.myheader {
     background-color: #214B8C;
     border-radius: 5px;
     height: 100px;
-    margin: 1px;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
 }
-.logo {
+.mylogo {
     align-self: center;
     background-color: #214B8C;
     height: inherit;

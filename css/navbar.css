@@ -1,5 +1,5 @@
-.topnav {
-    width: 100%;
+.mytopnav {
+    top: 1px;
     list-style-type: none;
     margin: 1px;
     padding: 1px;
@@ -10,18 +10,18 @@
     text-align: center;
     border-radius: 5px;
 }
-.topnav a {
+.mytopnav a {
     float: left;
     display: block;
     color: white;
     border: 1px solid #214B8C;
     border-radius: 5px;
     text-align: center;
-    padding: 15px 25px;
+    padding: 15px 60px;
     text-decoration: none;
 }
-.topnav a:hover {
+.mytopnav a:hover {
     background-color: navy;
-    padding: 15px 30px;
-    text-shadow: 3px 2px #214B8C;
+    padding: 15px 60px;
+    /* text-shadow: 3px 2px #214B8C; */
 }
