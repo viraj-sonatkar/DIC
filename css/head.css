@@ -1,13 +1,13 @@
 .myheader {
     background-color: #214B8C;
     border-radius: 5px;
-    height: 100px;
+    height: 120px;
     padding: 10px;
     text-align: center;
 }
 .mylogo {
     align-self: center;
     background-color: #214B8C;
-    height: inherit;
+    height: 100px;
     width: inherit;
 }
