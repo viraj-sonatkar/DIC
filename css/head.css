@@ -1,7 +1,7 @@
 .myheader {
     background-color: #214B8C;
     border-radius: 5px;
-    height: 120px;
+    max-height: 120px;
     padding: 10px;
     text-align: center;
 }

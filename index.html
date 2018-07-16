@@ -4,6 +4,7 @@
     <head>
         <!-- title name of the html -->
         <title>Design Innovation Centre</title>
+        <!-- reference to all other files -->
         <link rel="stylesheet" type="text/css" href="css/gallery.css">
         <link rel="stylesheet" type="text/css" href="css/w3.css">
         <link rel="shortcut icon" href="logos/image.png">
@@ -19,10 +20,11 @@
         </div>
         <div class="mytopnav">
             <a class="js-scroll-trigger" href="#AboutDIC">AboutDIC</a>
-            <a class="js-scroll-trigger" href="#History">Facilities</a>
-            <a class="js-scroll-trigger" href="#Members">Faculty</a>
+            <a class="js-scroll-trigger" href="#Facilities">Facilities</a>
+            <a class="js-scroll-trigger" href="#People">People</a>
             <a class="js-scroll-trigger" href="#Projects">Projects</a>
-            <a class="js-scroll-trigger" href="#Gallery">Gallery</a>
+            <!-- <a class="js-scroll-trigger" href="#Gallery">Gallery</a> -->
+            <a class="js-scroll-trigger" href="#Workshops">Workshops</a>
             <a class="js-scroll-trigger" href="#News">News</a>
             <a class="js-scroll-trigger" href="#ContactUs">ContactUs</a>
         </div>
@@ -31,9 +33,23 @@
             <span>INNOATION</span>
             <span>CENTRE</span></p>
         </div> -->
+
+        <div class="w3-content w3-display-container" style="max-width:95%">
+          <img class="mySlides" src="logos/img_nature_wide.jpg" style="width:100%">
+          <img class="mySlides" src="logos/img_snow_wide.jpg" style="width:100%">
+          <img class="mySlides" src="logos/img_mountains_wide.jpg" style="width:100%">
+          <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+            <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+            <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+            <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+            <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+            <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+          </div>
+        </div>
+
     <section id="AboutDIC">
         <div class="mycolumn">
-            <h1>Design Innovation Centre</h1>
+            <h1 style="text-align: center;">DESIGN INNOVATION CENTRE</h1>
         </div>
         <div class="mycontent">
             <h2>AboutDIC</h2>
@@ -63,7 +79,7 @@
         true global     center of learning.
         </div>
     </section>
-    <section id="History">
+    <section id="Facilities">
         <div class="mycolumn">
             <h1>Facilities</h1>
         </div>
@@ -76,10 +92,22 @@
             •   Electronic Components<br>
             •   Raspberry pie, Arduino boards etc
         </div>
+        <div class="w3-content w3-display-container" style="max-width:95%">
+          <img class="mySlides2" src="logos/img_nature_wide2.jpg" style="width:100%">
+          <img class="mySlides2" src="logos/img_snow_wide2.jpg" style="width:100%">
+          <img class="mySlides2" src="logos/img_mountains_wide2.jpg" style="width:100%">
+          <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+            <div class="w3-left w3-hover-text-khaki" onclick="plusDivs2(-1)">&#10094;</div>
+            <div class="w3-right w3-hover-text-khaki" onclick="plusDivs2(1)">&#10095;</div>
+            <span class="w3-badge demo2 w3-border w3-transparent w3-hover-white" onclick="currentDiv2(1)"></span>
+            <span class="w3-badge demo2 w3-border w3-transparent w3-hover-white" onclick="currentDiv2(2)"></span>
+            <span class="w3-badge demo2 w3-border w3-transparent w3-hover-white" onclick="currentDiv23)"></span>
+          </div>
+        </div>
     </section>
-    <section id="Members">
+    <section id="People">
         <div class="mycolumn">
-            <h1>Faculty</h1>
+            <h1>People</h1>
         </div>
         <div class="mycontent">
         •   Dr. Naveen Kumar, PI, Dean (Student Affairs), Ph.D. - IIT Delhi<br>
@@ -99,14 +127,14 @@
             <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
         </div>
     </section>
-    <section id="Gallery">
+    <!-- <section id="Gallery">
         <div class="mycolumn">
             <h1>Gallery</h1>
         </div>
         <div class="w3-content w3-display-container" style="max-width:95%">
-          <img class="mySlides w3-animate-fading" src="logos/img_nature_wide.jpg" style="width:100%">
-          <img class="mySlides w3-animate-fading" src="logos/img_snow_wide.jpg" style="width:100%">
-          <img class="mySlides w3-animate-fading" src="logos/img_mountains_wide.jpg" style="width:100%">
+          <img class="mySlides" src="logos/img_nature_wide.jpg" style="width:100%">
+          <img class="mySlides" src="logos/img_snow_wide.jpg" style="width:100%">
+          <img class="mySlides" src="logos/img_mountains_wide.jpg" style="width:100%">
           <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
             <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
             <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
@@ -114,6 +142,15 @@
             <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
             <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
           </div>
+        </div>
+    </section> -->
+    <section id="Workshops">
+        <div class="mycolumn">
+            <h1>Workshops</h1>
+        </div>
+        <div class="mycontent">
+            <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et.<br> Inciderint efficiantur his ad.<br> Eum no molestiae voluptatibus.</p>
+            <p>Some text to enable scrolling..<br> Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo.<br> Atqui causae gloriatur ius te, id agam omnis evertitur eum.<br> Affert laboramus repudiandae nec et.<br> Inciderint efficiantur his ad.<br> Eum no molestiae voluptatibus.</p>
         </div>
     </section>
     <section id="News">
@@ -136,6 +173,18 @@
             Contact - Dr.Naveen Kumar,PI<br>
             Phone - +91-44-27476354<br>
             Email - nkumar@iiitdm.ac.in<br><br>
+            <div id="map" class="mygooglemap">
+                <script>
+                function myMap() {
+                var mapOptions = {
+                    center: new google.maps.LatLng(12.84, 80.14),
+                    zoom: 15,
+                    mapTypeId: google.maps.MapTypeId.ROADMAP
+                }
+                var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+                }
+                </script>
+                <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>            </div>
         </div>
     </section>
     <div class="myfoot">
@@ -178,6 +227,42 @@
           }
           x[slideIndex-1].style.display = "block";
           dots[slideIndex-1].className += " w3-white";
+          slideIndex++;
+          if (slideIndex > x.length) {slideIndex = 1}
+          if (slideIndex < 1) {slideIndex = x.length}
+          setTimeout(showDivs,5000);
+        }
+    </script>
+    <script>
+        var slideIndex = 1;
+        showDivs2(slideIndex);
+
+        function plusDivs2(n) {
+          showDivs2(slideIndex += n);
+        }
+
+        function currentDiv2(n) {
+          showDivs2(slideIndex = n);
+        }
+
+        function showDivs2(n) {
+          var i;
+          var x = document.getElementsByClassName("mySlides2");
+          var dots = document.getElementsByClassName("demo2");
+          if (n > x.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = x.length}
+          for (i = 0; i < x.length; i++) {
+             x[i].style.display = "none";
+          }
+          for (i = 0; i < dots.length; i++) {
+             dots[i].className = dots[i].className.replace(" w3-white", "");
+          }
+          x[slideIndex-1].style.display = "block";
+          dots[slideIndex-1].className += " w3-white";
+          slideIndex++;
+          if (slideIndex > x.length) {slideIndex = 1}
+          if (slideIndex < 1) {slideIndex = x.length}
+          setTimeout(showDivs2,5000);
         }
     </script>
     </body>
