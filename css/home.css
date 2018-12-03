@@ -3,10 +3,10 @@
     /* font-family: "Georgia", Georgia, serif; */
     font-family: serif;
     background-color: white;
-    font-size: 30px;
+    font-size: 40px;
     padding: 10px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 80px;
+    padding-right: 80px;
     border-radius: 5px;
     text-align: left;
 }
@@ -16,8 +16,8 @@
     /* font-family: "Georgia", Georgia, serif; */
     background-color: white;
     padding: 10px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
     /* padding-left: 20px; */
     font-size: 20px;
     border-radius: 5px;
